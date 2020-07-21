@@ -16,8 +16,6 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    
-    Shoe::BRANDS.include?(brand) ? nil : BRANDS << brand 
   end
     
 
